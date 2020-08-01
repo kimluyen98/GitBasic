@@ -1,0 +1,38 @@
+.post_1_1_0__main {
+    padding: 5px 8px
+}
+
+.post_1_1_0__title {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f26649;
+    text-transform: uppercase
+}
+
+.post_1_1_0__detail .aligncenter {
+    text-align: center
+}
+
+.post_1_1_0 h2 {
+    font-size: 18px;
+    color: #1C8569;
+    font-weight: 700;
+    font-family: arial
+}
+
+.post_1_1_0 h3 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    font-family: arial
+}
+
+@media (max-width: 375px) {
+    .post_1_0_0__title {
+        font-size: 16px
+    }
+}
+
+
+/*# sourceMappingURL=../maps/post.css.map */

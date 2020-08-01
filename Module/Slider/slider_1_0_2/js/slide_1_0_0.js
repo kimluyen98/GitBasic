@@ -1,0 +1,1 @@
+$(".slide_1_0_0 .owl-carousel").owlCarousel({ loop: !0, margin: 15, items: 1, nav: !1, dots: !0, lazyLoad: !0, URLhashListener: !1, autoplayHoverPause: !0, startPosition: "1" });

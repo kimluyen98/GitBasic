@@ -1,0 +1,31 @@
+.slide_1_0_2 {
+    padding-top: 125px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.slide_1_0_2 .owl-carousel .owl-dots {
+    margin-top: -30px !important;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .slide_1_0_2 {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 414px) {
+    .slide_1_0_2 {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 320px) {
+    .slide_1_0_2 {
+        padding-top: 80px;
+    }
+}
+
+
+/*# sourceMappingURL=slide_1_0_2.css.map */

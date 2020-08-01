@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "mappings": "AAiCA,YAAa;EACT,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,CAAC;EACjB,QAAQ,EAAE,QAAQ;;AAEd,oCAAU;EACN,UAAU,EAAE,gBAAgB;EAC5B,QAAQ,EAAE,QAAQ;;;AAK9B,0BAAiB;EACb,YAAa;IACT,WAAW,EAAE,IAAI;;;AAIzB,yBAAgB;EACZ,YAAa;IACT,WAAW,EAAE,IAAI;;;AAIzB,yBAAgB;EACZ,YAAa;IACT,WAAW,EAAE,IAAI",
+    "sources": ["../sass/slide_1_0_2.scss"],
+    "names": [],
+    "file": "slide_1_0_2.css"
+}

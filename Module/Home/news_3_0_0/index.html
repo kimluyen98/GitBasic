@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SCI FRAMEWORK</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/news_3_0_0.css" />
+    <script src="../core/dist/jquery.min.js"></script>
+    <script src="../core/dist/lib.js"></script>
+
+</head>
+<style>
+    .news_3_0_0 {
+        padding: 30px 0;
+    }
+    
+    .news_3_0_0__title h2 {
+        color: #000;
+        padding: 0 0 10px;
+        margin: 0;
+        font-size: 25px;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .news_3_0_0__box__pic img {
+        width: 100%;
+    }
+    
+    .news_3_0_0__box__ct {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #000;
+        font-size: 14px;
+    }
+    
+    .news_3_0_0__more {
+        color: #09a2d4;
+        text-decoration: underline;
+        font-style: italic;
+        text-transform: none;
+        font-weight: 400;
+    }
+    
+    .news_3_0_0__boxList {
+        margin: 10px 0;
+    }
+    
+    .news_3_0_0__boxList__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .news_3_0_0__boxList__pic {
+        max-width: 20%;
+    }
+    
+    .news_3_0_0__boxList__pic img {
+        width: 100%;
+    }
+    
+    .news_3_0_0__boxList__desc {
+        width: 70%;
+        padding-left: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    
+    @media (max-width: 1024px) {
+        .news_3_0_0__boxList__pic {
+            max-width: 25%;
+            margin-bottom: 5px;
+        }
+    }
+    
+    @media (max-width: 812px) {
+        .news_3_0_0 .col-md-4 {
+            width: 33% !important;
+        }
+        .news_3_0_0__title h2 {
+            font-size: 20px;
+        }
+        .news_3_0_0__box__ct {
+            font-size: 12px;
+        }
+        .news_3_0_0__boxList__desc {
+            padding-left: 10px;
+            font-size: 11px;
+        }
+    }
+    
+    @media (max-width: 414px) {
+        .news_3_0_0 .row {
+            padding: 0 5px;
+        }
+        .news_3_0_0 .col-md-4 {
+            width: 100% !important;
+        }
+        .news_3_0_0__boxList__desc {
+            font-size: 14px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .news_3_0_0 {
+            padding: 0;
+        }
+    }
+    /*# sourceMappingURL=news_3_0_0.css.map */
+</style>
+
+<body>
+    <section class="news_3_0_0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 news_3_0_0__newsPost">
+                    <div class="news_3_0_0__title">
+                        <h2>Bài viết nổi bật</h2>
+                    </div>
+                    <div class="news_3_0_0__box">
+                        <div class="news_3_0_0__box__pic">
+                            <img src="images/p1.jpg" alt="">
+                        </div>
+                        <div class="news_3_0_0__box__ct">
+                            Hơn 1000 khách hàng có mặt tại sự kiện khai trương bệnh viện thẩm mỹ đông á
+                            <a href="" class="news_3_0_0__more">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="news_3_0_0__boxList">
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 news_3_0_0__newsHost">
+                    <div class="news_3_0_0__title">
+                        <h2>Tin tức mới nhất</h2>
+                    </div>
+                    <div class="news_3_0_0__box">
+                        <div class="news_3_0_0__box__pic">
+                            <img src="images/p1.jpg" alt="">
+                        </div>
+                        <div class="news_3_0_0__box__ct">
+                            Hơn 1000 khách hàng có mặt tại sự kiện khai trương bệnh viện thẩm mỹ đông á
+                            <a href="" class="news_3_0_0__more">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="news_3_0_0__boxList">
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 news_3_0_0__newsQues">
+                    <div class="news_3_0_0__title">
+                        <h2>Hỏi đáp giảm mỡ</h2>
+                    </div>
+                    <div class="news_3_0_0__box">
+                        <div class="news_3_0_0__box__pic">
+                            <img src="images/p1.jpg" alt="">
+                        </div>
+                        <div class="news_3_0_0__box__ct">
+                            Hơn 1000 khách hàng có mặt tại sự kiện khai trương bệnh viện thẩm mỹ đông á
+                            <a href="" class="news_3_0_0__more">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="news_3_0_0__boxList">
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                        <div class="news_3_0_0__boxList__item">
+                            <div class="news_3_0_0__boxList__pic">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="news_3_0_0__boxList__desc">
+                                Hút mỡ SlimLipo Vaser – Sở hữu vóc dáng thon gọn chỉ sau 1 lần duy nhất
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+</html>

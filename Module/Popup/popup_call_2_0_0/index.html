@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SCI FRAMEWORK</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup_call_2_0_0.css" />
+    <script src="../../media/dist/jquery.min.js"></script>
+    <script src="../../media/dist/lib.js"></script>
+
+</head>
+
+<body>
+    <div class="container" style="position: relative;">
+        <section class="popup_call_2_0_0">
+            <article>
+                <div class="fct">
+                    <input id="iname" name="iname" type="text" required placeholder="* Họ tên:" style="display:none">
+                    <input id="iemail" name="iemail" type="email" required placeholder="* Email:" style="display:none">
+                    <input id="imob" name="imob" type="text" placeholder="*Nhập Số Điện Thoại... ">
+                    <select name="icity" id="icity" required>
+                        <option value="">* Chọn chi nhánh gần nhất</option>
+                        <option value="">* Chi nhánh nha khoa Paris 12 Thái Thịnh</option>
+                        <option value="">* Chi nhánh nha khoa Paris 39 Quang Trung</option>
+                        <option value="">* Chi nhánh nha khoa Paris Hải Phòng</option>
+                        <option value="">* Chi nhánh nha khoa Paris TP Vinh</option>
+                        <option value="">* Chi nhánh nha khoa Paris Đà Nẵng</option>
+                        <option value="">* Chi nhánh nha khoa Paris 97 Cộng Hòa, P4, Q.Tân Bình</option>
+                        <option value="">* Chi nhánh nha khoa Paris 179C Đường3/2, P11, Q.10</option>
+                        <option value="">* Chi nhánh nha khoa Paris 87 Nguyễn Thái Học, Q.1</option>
+                    </select>
+                    <textarea placeholder="Dịch vụ quan tâm: " rows="1" cols="1" id="itext" name="itext" style="display:none"></textarea>
+                </div>
+                <div class="dkbt" onclick="save_form('Paris Event Sinh Nhật');ants_send_contact(this)">
+                    <a href="">
+                        <img src="images/buttom.png" alt="">
+                    </a>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+$r1440: "(max-width:1440px)";
+$r1366: "(max-width:1366px)";
+$r1280: "(max-width:1280px)";
+$r1024: "(max-width:1024px)";
+$r768: "(max-width:812px)";
+$r414: "(max-width:414px)";
+$r375: "(max-width:375px)";
+$r360: "(max-width:360px)";
+$r320: "(max-width:320px)";
+$main:#00619b;
+
+@font-face {
+    font-family: "Barlow Condensed", sans-serif;
+}
+%font4 {
+    font-family: Barlow;
+}
+%icon {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: 400;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.cate_4_0_0{
+    background: #F1F1F4;
+    padding: 30px 0;
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    &__main{
+        width: 73%;
+        padding-top: 10px;
+        margin-right: 20px;
+    }
+    &__nb{
+        margin-top: 15px;
+    }
+    &__item{
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+        .pic{
+            width: 60%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .text{
+            width: 40%;
+            padding: 20px;
+            p{
+                color: #0E7A75;
+                font-weight: 600;
+            }
+            .date{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+                .share{
+                    a{
+                        color: #EF810A;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+    &__title{
+        h2{
+            @extend %font4;
+            color: #323232;
+            font-size: 40px;
+        }
+        .select{
+            border: none;
+            width: 200px;
+            height: 40px;
+            padding-left: 10px;
+            outline: none;
+            margin-left: 30px;
+        }
+    }
+    &__content{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item{
+            width: 32%;
+            background: #fff;
+            margin-bottom: 15px;
+            .pic{
+                img{
+                    width: 100%;
+                }
+            }
+            .text{
+                padding: 10px 20px;
+                p{
+                    color: #0E7A75;
+                    font-weight: 600;
+                }
+                span{
+                    font-size: 14px;
+                }
+            }
+            .date{
+                padding: 0 20px;
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+                .share{
+                    color: #EF810A;
+                }
+            }
+        }
+    }
+    &__sidebar{
+        width: 25%;
+        margin-top: 47px;
+    }
+}
+
+@media #{$r1440}{
+    .cate_4_0_0{
+        &__content{
+            .item{
+                .text{
+                    padding: 10px;
+                    p{
+                        font-size: 14px;
+                    }
+                    span{
+                        font-size: 13px;
+                    }
+                }
+                .date{
+                    padding: 10px;
+                    padding-top: 0;
+                    i{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$r1024}{
+    .cate_4_0_0{
+        &__box{
+            width: 95%;
+        }
+        &__sidebar{
+            width: 24%;
+        }
+        &__item{
+            .pic{
+                width: 40%;
+                img{
+                    height: auto;
+                }
+            }
+            .text{
+                width: 60%;
+                padding: 10px;
+                p{
+                    font-size: 13px;
+                    margin: 0;
+                }
+                span{
+                    display: none;
+                }
+            }
+        }
+        &__content{
+            .item{
+                .text{
+                    p{
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                    span{
+                        font-size: 11px;
+                    }
+                }
+                .date{
+                    i{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        &__title{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media #{$r414}{
+    .cate_4_0_0{
+        &__main{
+           width: 100%;
+           margin-right: 0;
+        }
+        &__item{
+            .pic{
+                img{
+                    height: 100%;
+                }
+            }
+            .text{
+                p{
+                    font-size: 12px;
+                }
+                .date{
+                    margin-top: 5px;
+                    i{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        &__content{
+            .item{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+                .pic{
+                    width: 30%;
+                    img{
+                        height: 100%;
+                    }
+                }
+                .name{
+                    width: 70%;
+                }
+                .text{
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+        &__title{
+            h2{
+                margin-top: 10px;
+            }
+        }
+        &__sidebar{
+            display: none;
+        }
+    }
+}
+
+@media #{$r320}{
+    .cate_4_0_0{
+       &__title{
+           .select{
+               width: 160px;
+           }
+       }
+    }
+}

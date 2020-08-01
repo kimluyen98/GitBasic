@@ -1,0 +1,17 @@
+.layout_1_0_0 {
+    margin-top: 160px
+}
+
+@media (max-width: 1024px) {
+    .layout_1_0_0 {
+        margin-top: 110px
+    }
+}
+
+@media (max-width: 414px) {
+    .layout_1_0_0 {
+        margin-top: 130px
+    }
+}
+
+/*# sourceMappingURL=../maps/layout.css.map */

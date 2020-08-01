@@ -1,0 +1,122 @@
+$r1440: "(max-width:1440px)";
+$r1366: "(max-width:1366px)";
+$r1280: "(max-width:1280px)";
+$r1024: "(max-width:1024px)";
+$r768: "(max-width:812px)";
+$r414: "(max-width:414px)";
+$r375: "(max-width:375px)";
+$r360: "(max-width:360px)";
+$r320: "(max-width:320px)";
+$main:#00619b;
+%font1 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+$color1:#004689;
+%icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.basis_2_0_2 {
+    padding: 30px 0;
+    &__title {
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            font-weight: 600;
+            padding: 0;
+            margin: 0 0 15px;
+            line-height: 40px;
+            text-transform: uppercase;
+            color: #000;
+        }
+    }
+    &__line {
+        width: 258px;
+        margin: 15px auto 40px;
+        position: relative;
+        border-top: 1px solid #00c6ca;
+        &::before {
+            width: 160px;
+            margin: 0 auto;
+            border-top: 3px solid #00c6ca;
+            position: absolute;
+            left: 50px;
+            top: -2px;
+            content: "";
+        }
+    }
+    .owl-carousel {
+        img {
+            width: auto;
+            margin: 0 auto;
+        }
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #00d9dd;
+    }
+    &__ct {
+        text-align: center;
+        color: #333;
+        font-weight: 600;
+        padding: 10px 15px;
+    }
+}
+
+@media #{$r1024} {
+    .basis_2_0_2 {
+        .owl-carousel {
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media #{$r768} {
+    .basis_2_0_2 {
+        &__ct {
+            font-size: 14px;
+        }
+    }
+}
+
+@media #{$r414} {
+    .basis_2_0_2 {
+        padding: 10px 0;
+        &__title {
+            h2 {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        &__ct {
+            padding: 10px;
+        }
+    }
+}
+
+@media #{$r320} {
+    .basis_2_0_2 {
+        &__ct {
+            padding: 10px 0 0;
+            font-size: 13px;
+        }
+    }
+}
