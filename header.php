@@ -17,6 +17,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/Module/favicon.png">
   <?php wp_head(); ?>
   <?php get_template_part('Module/module_head');?>
+	
+	<p>ALOOOOO</p>
   
 </head>
 
